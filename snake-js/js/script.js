@@ -63,8 +63,15 @@ function startGame() {
   if (direction === 'left') snakePosX -= box;
   if (direction === 'up') snakePosY -= box;
   if (direction === 'down') snakePosY += box;
+
+  if (snakePosX != food.x || snakePosY != food.y) {
+    snake.pop();
+
+  } else {
+    food.x = Math.floor(Math.random() * 15 + 1) * box;
+    food.y = Math.floor(Math.random() * 15 + 1) * box;
+  }
   
-  snake.pop();
 
   // snake head
   let newHead = {
