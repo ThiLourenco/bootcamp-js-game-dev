@@ -6,7 +6,7 @@
 
 html {
   font-size: 10px;
-  background: #375fa5;
+  background: #24a2bb;
 }
 
 body {
@@ -21,7 +21,7 @@ h1 {
 }
 
 .score {
-  background: rgba(255, 255, 255, 0.2);
+  background: rgba(117, 195, 192, 0.801);
   padding: 0 3rem;
   line-height: 1;
   border-radius: 1rem;
