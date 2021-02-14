@@ -71,3 +71,21 @@ h1 {
   display: flex;
   justify-content: center;
 }
+
+button {
+  width: 100px;
+  height: 40px;
+  font-size: 16px;
+  font-weight: 600;
+  font-family: 'Poppins';
+  background-color: #24a2bb;
+  border: 1px solid  #75c3c0cc;
+  border-radius: 20px;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: rgba(117, 195, 192, 0.801);
+
+  cursor: pointer;
+}
